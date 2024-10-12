@@ -8,7 +8,7 @@ module.exports = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: `frame-ancestors 'self' http://localhost:* https://fmchain.vercel.app https://secure-mobile.walletconnect.com https://secure-mobile.walletconnect.org`,
+            value: `frame-ancestors 'self' http://localhost:* https://fmchain.vercel.app/ https://*.pages.dev https://*.ngrok-free.app https://secure-mobile.walletconnect.com https://secure-mobile.walletconnect.org`,
           },
           {
             key: 'Set-Cookie',
@@ -18,6 +18,4 @@ module.exports = {
       },
     ];
   },
-}
-
-// module.exports = nextConfig
+};
