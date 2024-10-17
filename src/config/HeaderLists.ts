@@ -12,7 +12,9 @@ export const HeaderLists:HeaderLists[] = [
   },
   {
     name: "Buy now",
-    link: "/buy",
+    // link: "/buy",
+    link: "/about",
+
     islink: true,
   },
   {
@@ -22,7 +24,7 @@ export const HeaderLists:HeaderLists[] = [
   },
   {
     name: "profile",
-    link: "/faq",
+    link: "/profile",
     islink: true,
   },
   {

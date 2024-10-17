@@ -1,24 +1,13 @@
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-import AOS from "aos";
 import Header from "@/components/Header/header";
 import Footer from "@/components/footer/Footer";
 
 const Layout = (props: any) => {
-  useEffect(() => {
-    AOS.init({
-      duration: 900,
-      easing: "ease-in-sine",
-      // delay: 100,
-    });
-  }, []);
-
   return (
-    <div className="w-full h-full bg-white text-black">
-      <div className="px-5 xl:px-0 r">
-        <Header />
-      </div>
-      {props.children}
+    <div className="w-full min-h-screen bg-white text-black">
+      <Header />
+
+      <div className=" bg-[rgba(59,139,246,0.2)]">{props.children}</div>
+
       <Footer />
     </div>
   );

@@ -56,6 +56,9 @@ const config: Config = {
       },
       animation: {},
       keyframes: {},
+      aspectRatio: {
+        '4/2': '4 / 2',
+      },
 
       backgroundImage: {
         connectButton :"linear-gradient(0deg, rgba(159,149,231,1) 37%, rgba(59,181,226,1) 100%)",
